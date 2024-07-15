@@ -24,6 +24,27 @@ Before you begin, ensure you have the following:
    - The Owner ID will be automatically filled
 4. Click the "Save" button at the bottom right of the form.
 
+### Using the Demo Service
+
+To help you get started quickly, we provide a demo web service called YugoBooks. This fictional online bookstore API is designed to showcase Yugo's capabilities.
+
+1. When starting a new integration, you can use the following URL for the API documentation:
+   ```
+   https://docs.yugo-ai.com/yugo-demo-service.md
+
+   (Preview: https://docs.yugo-ai.com/yugo-demo-service.html)
+   ```
+
+2. This demo service includes endpoints for managing books, users, shopping carts, and orders, providing a realistic scenario for AI integration.
+
+3. Explore how Yugo analyzes the YugoBooks API and suggests AI enhancements like personalized recommendations or sentiment analysis.
+
+4. Use the demo to familiarize yourself with Yugo's features before integrating your own services.
+
+For full details about the YugoBooks demo service, please refer to the [YugoBooks Demo Service Description](https://docs.yugo-ai.com/yugo-demo-service.md).
+
+Remember, YugoBooks is a fictional service for demonstration purposes only. When you're ready to work with your own API, simply replace the demo URL with your actual API documentation link.
+
 ## Step 3: Start a New Integration
 
 1. On your service overview page, click the "Start New Integration" button.
