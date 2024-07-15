@@ -11,7 +11,7 @@ Before you begin, ensure you have the following:
 
 ## Step 1: Access Yugo Alpha Demo
 
-1. Visit [demo.yugo-ai.com](https://demo.yugo-ai.com) (placeholder URL)
+1. Visit [demo.yugo-ai.com](https://demo.yugo-ai.com)
 2. Use the provided common demo ID to log in: `yugo-alpha-demo@yugo-ai.com`, password is same as ID.
 
 ## Step 2: Register Your Web Service
@@ -94,7 +94,7 @@ You can also run AI features directly using API calls. Here's how:
 2. To run an AI feature via API, use a curl command like this:
 
    ```bash
-   curl -X POST "https://yugo-api-demo.yugo-ai.com/features/{feature_id}/run" \
+   curl -X POST "https://yugo-api-demo.shuttleapp.rs/features/{feature_id}/run" \
    -H "Authorization: Bearer yugo_demo_token_123456789" \
    -H "Content-Type: application/json" \
    -d '{
@@ -109,7 +109,7 @@ You can also run AI features directly using API calls. Here's how:
 3. Example: If you're using a text classification feature with ID "text-classifier-001", your curl command might look like this:
 
    ```bash
-   curl -X POST "https://yugo-api-demo.yugo-ai.com/features/text-classifier-001/run" \
+   curl -X POST "https://yugo-api-demo.shuttleapp.rs/features/text-classifier-001/run" \
    -H "Authorization: Bearer yugo_demo_token_123456789" \
    -H "Content-Type: application/json" \
    -d '{
