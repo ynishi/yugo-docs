@@ -85,13 +85,28 @@ Before you begin, ensure you have the following:
 
 You can also run AI features directly using API calls. Here's how:
 
-1. First, you need an API token. For this demo, use the following token:
+1. **API Token for the Demo Service:**
+   If you're using the pre-configured demo service, use the following token:
    ```
    yugo_demo_token_123456789
    ```
-   Note: In a real-world scenario, you would generate this token in the "Tokens" section of the menu.
+   This token is pre-generated for demonstration purposes.
 
-2. To run an AI feature via API, use a curl command like this:
+2. **API Token for Your Own Services:**
+   When you create a new service, you'll need to generate a unique API token for that service. Here's how:
+   
+   a. Navigate to the Service Console.
+   b. Click Pencil Button left of Service name.
+   c. Click "Create API Token" bottom of modal.
+   d. Give your token a descriptive name (e.g., "ProductionAPI" or "TestEnvironment").
+   e. Click "Create".
+   f. Copy and securely store the generated token. Note: You won't be able to see this token again, so make sure to copy it immediately.
+
+Each service requires its own unique token for API access and feature integration.
+
+When using the API or integrating features, always use the token associated with the specific service you're working on.
+
+3. To run an AI feature via API, use a curl command like this:
 
    ```bash
    curl -X POST "https://yugo-api-demo.shuttleapp.rs/features/{feature_id}/run" \
@@ -106,7 +121,7 @@ You can also run AI features directly using API calls. Here's how:
 
    Replace `{feature_id}` with the ID of the AI feature you want to run, which you can find in the feature details on the GUI.
 
-3. Example: If you're using a text classification feature with ID "text-classifier-001", your curl command might look like this:
+4. Example: If you're using a text classification feature with ID "text-classifier-001", your curl command might look like this:
 
    ```bash
    curl -X POST "https://yugo-api-demo.shuttleapp.rs/features/text-classifier-001/run" \
@@ -119,7 +134,7 @@ You can also run AI features directly using API calls. Here's how:
    }'
    ```
 
-4. The API will return a JSON response with the results of the AI feature execution.
+5. The API will return a JSON response with the results of the AI feature execution.
 
 Note: If you want to disable any AI feature, you can do so by clicking on the feature and toggling the "Enabled" switch in the details view. You can re-enable features at any time.
 

@@ -9,7 +9,7 @@ A: Yugo is flexible and can analyze various types of API documentation. While we
 A: Yes, you can integrate multiple AI features. We recommend starting with one or two features and gradually adding more as you become familiar with the platform. Each integration is based on the specific analysis of your API documentation.
 
 ### Q3: How secure is my API documentation and data?
-A: In the current demo version, we prioritize ease of use for testing purposes. We recommend using only public information for this demo. We do not store your API data; we only retain the analysis results. Rest assured, in the full product version, we will implement stringent security measures, including encryption of data in transit and at rest, to protect your sensitive information.
+A: In the current demo version, we prioritize ease of use for testing purposes. We recommend using only public information for this demo. Rest assured, in the full product version, we will implement stringent security measures, including encryption of data in transit and at rest, to protect your sensitive information.
 
 ### Q4: What if the recommended AI features don't meet my needs?
 A: Our AI feature recommendations are dynamically generated based on the analysis of your specific API documentation. Unlike a fixed catalog of pre-defined features, we create custom suggestions tailored to your API's structure and apparent functionality. If the initial recommendations don't fully meet your needs, you can initiate a new analysis or contact our support team for more specialized assistance.
