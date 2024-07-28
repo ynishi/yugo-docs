@@ -11,5 +11,10 @@
     <main>
         {{ content }}
     </main>
+    <footer>
+        {% for link in site.footer_links %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+    </footer>
 </body>
 </html>
