@@ -1,0 +1,162 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3A86FF;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #3A86FF 0%, #8338EC 100%);
+    color: #fff;
+    text-align: center;
+    padding: 8rem 0 6rem;
+    margin-top: 60px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    background-color: #FF006E;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FF5E93;
+}
+
+/* Features Section */
+#features {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#features ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    list-style: none;
+}
+
+#features li {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#features li:hover {
+    transform: translateY(-5px);
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #3A86FF;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    #features ul {
+        grid-template-columns: 1fr;
+    }
+}
