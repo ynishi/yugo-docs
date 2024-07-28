@@ -1,2 +1,16 @@
 url: "https://docs.yugo-ai.com"
 baseurl: ""
+# Document setting
+name: Yugo Documentation
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: "" # すべてのファイルに適用
+    values:
+      layout: "default" # デフォルトのレイアウトを使用
+      css: "/assets/css/markdown-style.css" # Markdown用のカスタムCSSを指定
