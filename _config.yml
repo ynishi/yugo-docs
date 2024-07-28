@@ -47,6 +47,11 @@ defaults:
 # Footer links (displayed on all pages)
 footer_links:
   - title: Terms of Service
-    url: /legal/terms-of-use-en.md
+    url: /legal/terms-of-use-en
+  - title: 利用規約(日本語版)
+    url: /legal/terms-of-use-ja
   - title: Privacy Policy
-    url: /legal/privacy-policy-en.md
+    url: /legal/privacy-policy-en
+  - title: プライバシーポリシー(日本語版)
+    url: /legal/privacy-policy-ja
+ 
