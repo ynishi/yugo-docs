@@ -17,18 +17,23 @@ This Privacy Policy describes how Yugo ("we", "our", or "us") collects, uses, an
 ## 3. How We Use Your Information
 
 3.1 To provide and maintain our service
+
 3.2 To improve and optimize our service
+
 3.3 To analyze usage patterns and trends
+
 3.4 To communicate with you about the service
 
 ## 4. Data Protection
 
 4.1 We implement appropriate technical and organizational measures to protect your data.
+
 4.2 We do not sell or share your personal information with third parties.
 
 ## 5. Your Rights
 
 5.1 You have the right to access, correct, or delete your personal information.
+
 5.2 To exercise these rights or for any privacy-related inquiries, please contact us at privacy@yugo-ai.com.
 
 ## 6. Changes to This Policy
