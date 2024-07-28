@@ -1,3 +1,6 @@
+# Site settings
+title: Yugo Documentation
+description: Documentation for the Yugo AI-Web Fusion Platform
 url: "https://docs.yugo-ai.com"
 baseurl: ""
 # Document setting
@@ -7,10 +10,43 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  legal:
+    output: true
+    permalink: /:collection/:path/
+
+# Default settings for all pages
 defaults:
-  -
-    scope:
-      path: "" # すべてのファイルに適用
+  - scope:
+      path: ""
     values:
-      layout: "default" # デフォルトのレイアウトを使用
-      css: "/assets/css/markdown-style.css" # Markdown用のカスタムCSSを指定
+      layout: "default"
+      css: "/assets/css/style.css"
+
+  # Settings for documentation pages
+  - scope:
+      path: "docs"
+    values:
+      layout: "default"
+      css: "/assets/css/markdown-style.css"
+
+  # Settings for legal pages
+  - scope:
+      path: "legal"
+    values:
+      layout: "default"
+      css: "/assets/css/markdown-style.css"
+
+# Footer links (displayed on all pages)
+footer_links:
+  - title: Terms of Service
+    url: /legal/terms-of-use-en.md
+  - title: Privacy Policy
+    url: /legal/privacy-policy-en.md
