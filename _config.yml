@@ -1,7 +1,7 @@
 # Site settings
 title: Yugo Documentation
 description: Documentation for the Yugo AI-Web Fusion Platform
-url: "https://docs.yugo-ai.com"
+url: "https://www.yugo-ai.com"
 baseurl: ""
 # Document setting
 name: Yugo Documentation
@@ -54,4 +54,3 @@ footer_links:
     url: /legal/privacy-policy-en
   - title: プライバシーポリシー(日本語版)
     url: /legal/privacy-policy-ja
- 
