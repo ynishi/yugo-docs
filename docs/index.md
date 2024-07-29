@@ -39,7 +39,7 @@ Welcome to the documentation for Yugo, your AI-Web Fusion Platform. This guide w
 ## Quick Start
 
 To begin using Yugo:
-1. Access the demo at [demo.yugo-ai.com](https://demo.www.yugo-ai.com) using the provided common demo ID(`yugo-alpha-demo@yugo-ai.com`, password is same as ID.)
+1. Access the demo at [demo.yugo-ai.com](https://demo.yugo-ai.com) using the provided common demo ID(`yugo-alpha-demo@yugo-ai.com`, password is same as ID.)
 2. Create a new service and upload or link your API documentation.
 3. Review AI feature recommendations and integrate them into your service.
 4. Test the integrated AI features using the provided interface or API calls.

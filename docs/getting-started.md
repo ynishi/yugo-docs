@@ -30,9 +30,9 @@ To help you get started quickly, we provide a demo web service called YugoBooks.
 
 1. When starting a new integration, you can use the following URL for the API documentation:
    ```
-   https://docs.yugo-ai.com/yugo-demo-service.md
+   https://www.yugo-ai.com/docs/yugo-demo-service.md
 
-   (Preview: https://docs.yugo-ai.com/yugo-demo-service.html)
+   (Preview: https://www.yugo-ai.com/docs/yugo-demo-service.html)
    ```
 
 2. This demo service includes endpoints for managing books, users, shopping carts, and orders, providing a realistic scenario for AI integration.
@@ -41,7 +41,7 @@ To help you get started quickly, we provide a demo web service called YugoBooks.
 
 4. Use the demo to familiarize yourself with Yugo's features before integrating your own services.
 
-For full details about the YugoBooks demo service, please refer to the [YugoBooks Demo Service Description](https://docs.yugo-ai.com/yugo-demo-service.md).
+For full details about the YugoBooks demo service, please refer to the [YugoBooks Demo Service Description](https://www.yugo-ai.com/docs/yugo-demo-service.md).
 
 Remember, YugoBooks is a fictional service for demonstration purposes only. When you're ready to work with your own API, simply replace the demo URL with your actual API documentation link.
 
@@ -115,7 +115,7 @@ You can also run AI features directly using API calls. Here's how:
 
 2. **API Token for Your Own Services:**
    When you create a new service, you'll need to generate a unique API token for that service. Here's how:
-   
+
    a. Navigate to the Service Console.
    b. Click Pencil Button left of Service name.
    c. Click "Create API Token" bottom of modal.
