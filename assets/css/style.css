@@ -181,7 +181,7 @@ footer a {
 }
 
 /* Pre-Access Benefits Section */
-#features {
+#pre-access-benefits {
     padding: 4rem 0;
     background-color: #f8f9fa;
 }
@@ -194,8 +194,7 @@ footer a {
     transition: transform 0.3s ease;
 }
 
-.pre-access-benefits h3 {
-    color: #333;
+.pre-access-benefits h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
