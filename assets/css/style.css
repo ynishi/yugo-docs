@@ -93,6 +93,25 @@ nav ul li a:hover {
     background-color: #FF5E93;
 }
 
+/* Secondary CTA Button */
+.cta-button-secondary {
+    display: inline-block;
+    background-color: transparent;
+    color: #FF006E;
+    padding: 0.75rem 1.95rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #FF006E;
+}
+
+.cta-button-secondary:hover {
+    background-color: rgba(255, 0, 110, 0.1);
+    color: #FF5E93;
+    border-color: #FF5E93;
+}
+
 /* Features Section */
 #features {
     padding: 4rem 0;
@@ -159,4 +178,39 @@ footer a {
     #features ul {
         grid-template-columns: 1fr;
     }
+}
+
+/* Pre-Access Benefits Section */
+.pre-access-benefits {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pre-access-benefits h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.pre-access-benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pre-access-benefits li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.pre-access-benefits i {
+    color: #FF006E;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.pre-access-benefits strong {
+    color: #333;
+    margin-right: 0.5rem;
 }
