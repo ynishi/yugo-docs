@@ -8,7 +8,14 @@ window.onload = function() {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         const messageEl = document.getElementById('message');
-        
+        const agreeTerms = document.getElementById('agree-terms').checked;
+
+        if (!agreeTerms) {
+            messageEl.textContent = 'You must agree to the Terms of Service and Privacy Policy.';
+            messageEl.className = 'error';
+            return;
+        }
+
         try {
             const { user, error } = await supabase.auth.signUp({
                 email: email,
