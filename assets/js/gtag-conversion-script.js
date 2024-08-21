@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function() {
     var demoLink = document.querySelector('a[href="https://demo.yugo-ai.com"]');
     if (demoLink) {
@@ -10,3 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+*/
