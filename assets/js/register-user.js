@@ -1,7 +1,7 @@
 window.onload = function() {
     const SUPABASE_URL = 'https://pbxzoxonldbepadxbbqo.supabase.co';
     const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBieHpveG9ubGRiZXBhZHhiYnFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM5ODU4ODksImV4cCI6MjAzOTU2MTg4OX0.YaIsf9qYFM6VmfkgGIhvN2ZHyzRrkejaWPYFRvQdaXc';
-    const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
     document.getElementById('register-form').addEventListener('submit', async function(e) {
         e.preventDefault();
