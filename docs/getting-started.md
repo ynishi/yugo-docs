@@ -11,8 +11,9 @@ Before you begin, ensure you have the following:
 
 ## Step 1: Access Yugo Alpha Demo
 
-1. Visit [demo.yugo-ai.com](https://demo.yugo-ai.com)
-2. Use the provided common demo ID to log in: `yugo-alpha-demo@yugo-ai.com`, password is same as ID.
+1. Visit [demo.yugo-ai.com](https://demo.yugo-ai.com/login) to try our demo. By accessing the demo, you agree to our [Terms of Service](https://www.yugo-ai.com/legal/terms-of-use-en) and [Privacy Policy](https://www.yugo-ai.com/legal/privacy-policy-en").
+2. Once logged in, you can experiment with AI integrations as an anonymous user.
+3. All data associated with your session will be deleted upon logout.
 
 ## Step 2: Register Your Web Service
 
